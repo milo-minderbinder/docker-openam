@@ -1,3 +1,11 @@
 *.swp
 *.log
 .git
+*.zip
+*.jar
+openam/OpenAM-ServerOnly-12.0.0.war
+openam/legal-notices
+openam/ldif
+openam/ExampleClientSDK-WAR-12.0.0.war
+openam/IDPDiscovery-12.0.0.war
+openam/OpenAM-DistAuth-12.0.0.war
