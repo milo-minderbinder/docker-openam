@@ -1,7 +1,6 @@
 FROM mminderbinder/tomcat7:0.9.15
 MAINTAINER Milo Minderbinder <minderbinder.enterprises@gmail.com>
 
-ENV HOME /root
 CMD ["/sbin/my_init"]
 
 RUN chown -R tomcat7:tomcat7 /usr/share/tomcat7
