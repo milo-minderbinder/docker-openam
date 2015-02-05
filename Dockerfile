@@ -16,6 +16,8 @@ RUN chmod +x /usr/share/tomcat7/bin/*.sh
 RUN chown -R tomcat7:tomcat7 /usr/share/tomcat7
 COPY openam/OpenAM-12.0.0.war /var/lib/tomcat7/webapps/openam.war
 
+VOLUME /etc/openam
+
 EXPOSE 8080
 EXPOSE 8443
 
