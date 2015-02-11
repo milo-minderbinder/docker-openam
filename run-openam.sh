@@ -8,7 +8,7 @@ read -p "Keystore key alias:" ks_keyalias
 
 if [[ $1 == "-d" ]]; then
 	if [[ -z "$2" ]]; then
-		TAG=0.9.15
+		TAG=latest
 	else
 		TAG="${2}"
 	fi
@@ -18,7 +18,7 @@ if [[ $1 == "-d" ]]; then
 		mminderbinder/openam:${TAG}
 else
 	if [[ -z "$1" ]]; then
-		TAG=0.9.15
+		TAG=latest
 	else
 		TAG="${1}"
 	fi
